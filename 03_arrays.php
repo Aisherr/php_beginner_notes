@@ -14,7 +14,6 @@
     //simple Array of strings
          $colors=["yellow","white","red","green","blue","purple"];
          $colorss="colorless";
-//echo $colorss;
 //echo $colors[4];
 
 //var_dump($colors);
@@ -50,9 +49,63 @@
 
         ];
         //var_dump($people);
-        echo $people[1]['email'];
+        //echo $people[1]['email'];
 
+//Assigment
+ $CountCapt=array(
+  "Netherlands" => "Amsterdam",
+  
+  "Greece" => "Athens",
 
-     
+  "Germany" => "Berlin",
+  
+  "Slovakia" => "Bratislava",
+  
+  "Belgium" => "Brussels",
+  
+  "Hungary" => "Budapest",
+
+  "Denmark" => "Copenhagen",
+
+  "Ireland" =>"Dublin",
+
+  "Finland" => "Helinski",
+ 
+  "Portugal" => "Lisbon",
+ 
+  "Slovenia"  => "Ljublana",
+
+   "United Kingdom" => "London",
+
+  "Luxembourg" => "Luxembourg",
+
+  "Spain" => "Madrid",
+
+  "Cyprus" => "Nicosia",
+  
+   "France" => "Paris",
+ 
+  "Czech Republic" => "Prague",
+  
+  "Latvia" => "Riga",
+
+  "Italy" => "Rome",
+
+  "Sweden" => "Stockholm",
+
+  "Estonia" => "Tallin",
+ 
+  "Malta" => "Valetta",
+
+  "Austria" => "Vienna",
+
+  "Lithuania" => "Vilnius",
+
+   "Poland" => "Warsaw"
+ );
+ asort($CountCapt);
+ foreach($CountCapt as $country => $capital){
+  echo "$country =$capital <br>";
+ }
 
 
