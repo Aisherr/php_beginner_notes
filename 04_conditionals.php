@@ -51,6 +51,7 @@ if (condition) {
 
 /* -------- Switch Statements ------- */
 
+
 $team1 = 89;
 $team2 = 85;
 //if statement
@@ -86,7 +87,32 @@ $number=1;
 if($number<0){
   echo("the number is negative");
 }elseif($number>0){
-  echo("the number is positive");
+  echo("the number is positive<br>");
 }else{
   echo("the number is zero");
+}
+$favfood="pizza";
+switch($favfood){
+  case 'ugali':
+    echo("my fav food is ugali");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  break;
+
+  case 'uji':
+    echo("my fav food is uji");
+  break;
+
+  case 'mboga':
+    echo("my fav food is mboga");
+  break;
+
+  case 'fish':
+    echo("my fav food is fish");
+  break;
+
+  case 'githeri':
+    echo("my fav food is githeri");
+  break;
+
+  default:
+    echo("my fav food is pizza");
 }
