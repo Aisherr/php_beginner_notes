@@ -22,7 +22,7 @@ function addingfunction($num1,$num2){
 addingfunction(50,20);
 
 function Myname($fname,$lname){
-  $fullname=$fname.$lname;
+  $fullname=$fname.$lname;       
   echo "print $fullname<br>";
 }
 Myname("Aisha","Mohamed"); 
@@ -40,5 +40,6 @@ function multiplication($num3,$num4){
 }
 multiplication(9,5);
 multiplication(20,3);
+
 
 

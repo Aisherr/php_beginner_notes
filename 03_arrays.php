@@ -14,7 +14,7 @@
     //simple Array of strings
          $colors=["yellow","white","red","green","blue","purple"];
          $colorss="colorless";
-//echo $colors[4];
+//echo $colors;
 
 //var_dump($colors);
 //print_r($numbers);
@@ -48,7 +48,7 @@
         ]
 
         ];
-        //var_dump($people);
+        var_dump($people);
         //echo $people[1]['email'];
 
 //Assigment
@@ -107,5 +107,13 @@
  foreach($CountCapt as $country => $capital){
   echo "$country =$capital <br>";
  }
+
+
+ $color=array("white","green","red");
+  asort($color);
+  foreach($color as $value){
+    echo "$value<br>";
+  }
+  
 
 
