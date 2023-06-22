@@ -1,0 +1,21 @@
+<?php
+class Game{
+    var $name;
+    var $price;
+    var $photo;
+    var $dir;
+
+ public function print_game(){
+    echo $this->name;
+    echo $this->price;
+    echo $this->photo;
+ }
+} 
+
+$game1 =new Game;
+   $game1->name="Fifa";
+   $game1->price=20000;
+   $game1->photo="";
+
+   $game1->print_game();
+   ?>
